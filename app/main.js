@@ -61,12 +61,6 @@ const server = net.createServer(async (socket) => {
   });
 });
 
-server.get("/vidhi", (req, res)=>{
-  res.json({
-    name : "vidhi"
-  })
-})
 
 server.listen(4221, "localhost");
 
-server.get
